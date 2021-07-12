@@ -94,6 +94,10 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 0;
+}
+.course-author{
+    margin-top: 8px;
 }
 .fa-star {
   font-size: 12px;
@@ -119,6 +123,14 @@ hr {
   .container {
     width: 100%;
   }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  
   .section-title {
     text-align: center;
   }
@@ -138,6 +150,9 @@ hr {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 10px;
+  }
+  .course{
+    margin: 10px;
   }
   .course .course-banner img {
     width: 100%;
