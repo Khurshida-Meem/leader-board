@@ -37,6 +37,7 @@ hr {
   }
   nav h2{
     padding-left: 15px;
+    color: white;
   }
   .logo,.menu{
     display: flex;
