@@ -133,7 +133,7 @@ hr {
 }
 .course .course-banner img {
   position: relative;
-  width: 224px;
+  width: 100%;
   height: auto;
   
 }
@@ -167,7 +167,7 @@ hr {
   background-color: #f8c1c9;
   border-radius: 14.6913px;
   color: #ff4a60;
-  padding: 5px 8px;
+  padding: 3px 7px ;
   
 }
 
@@ -176,9 +176,7 @@ hr {
 -------------------*/
 /* Mobile devices */
 @media only screen and (max-width: 688px) {
-  body{
-    margin: 0;
-  }
+  
   .container {
     width: 100%;
     padding: 0;
@@ -196,6 +194,7 @@ hr {
     }
   .section-title {
     text-align: center;
+    padding-top: 10px;
   }
   .players {
     display: grid;
@@ -208,7 +207,11 @@ hr {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 10px;
-    margin-left: 5px;
+    
+  }
+  .blog{
+    justify-content: center; 
+    
   }
   .courses {
     display: grid;
@@ -222,4 +225,28 @@ hr {
     width: 100%;
     height: auto;
 }
+}
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .section-title{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .players{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+  .player, .blog,.course{
+    justify-content: center;
+  }
+ .courses{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+ }
+ 
 }
