@@ -146,7 +146,7 @@ hr {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0;
-  line-height: 20px;
+  
   
 }
 .course-author{
@@ -181,6 +181,7 @@ hr {
   }
   .container {
     width: 100%;
+    padding: 0;
   }
 
     main {
@@ -207,6 +208,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 10px;
+    margin-left: 5px;
   }
   .courses {
     display: grid;
