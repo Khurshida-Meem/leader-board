@@ -27,19 +27,18 @@ hr {
 /*------------------ 
   navigation style  
   -----------------*/
-  
-  .navigation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-  }
   nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #562EFF;
     height: 94px;
-   
+    color: whitesmoke;
   }
-  .logo{
+  nav h2{
+    padding-left: 15px;
+  }
+  .logo,.menu{
     display: flex;
     align-items: center
     
@@ -47,6 +46,14 @@ hr {
   .logo img{
     width: 40.42px;
     height: 51px;
+  }
+  .menu img{
+    width: 51px;
+  }
+  .menu a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding-right: 36px;
   }
 
 /*--------------- -----
