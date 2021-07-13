@@ -5,6 +5,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #d5cefc;
+  margin: 0;
 }
 main {
   display: flex;
@@ -21,8 +22,36 @@ main {
 hr {
   border: 1px solid #d1d1d1;
   margin-bottom: 27px;
+  
 }
-/* top players style */
+/*------------------ 
+  navigation style  
+  -----------------*/
+  
+  .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  nav{
+    background-color: #562EFF;
+    height: 94px;
+   
+  }
+  .logo{
+    display: flex;
+    align-items: center
+    
+  }
+  .logo img{
+    width: 40.42px;
+    height: 51px;
+  }
+
+/*--------------- -----
+  top players style 
+  --------------------*/
 .top-players {
   margin-bottom: 21px;
 }
@@ -84,20 +113,32 @@ hr {
 .courses {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 25px;
+  grid-column-gap: 30px;
+  
+}
+.course{
+  box-shadow: 0px 5.34229px 13.3557px rgb(177, 165, 165);
+  padding: 20px;
+  border-radius: 30px;
 }
 .course .course-banner img {
+  position: relative;
   width: 224px;
-  height: 104px;
+  height: auto;
+  
 }
 .course-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0;
+  line-height: 20px;
+  
 }
 .course-author{
     margin-top: 8px;
+    color: #ED6B4F;
+    font-size: 14.6913px;
 }
 .fa-star {
   font-size: 12px;
@@ -112,7 +153,8 @@ hr {
   background-color: #f8c1c9;
   border-radius: 14.6913px;
   color: #ff4a60;
-  padding: 5.5px;
+  padding: 5px 8px;
+  
 }
 
 /* ------------------
